@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitData</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <main class="main">
+        <section class="search">
+          <div class="search__container">
+            <div class="search__content">
+              <input
+                type="search"
+                name="search"
+                class="search-line"
+                id="searchInput"
+              />
+              <button class="search__btn">
+                <svg
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="search__icon"
+                >
+                  <g id="Ikon">
+                    <path
+                      d="m28.8066 23.8521-5.43-5.42a.9944.9944 0 0 0 -1.369-.0286l-1.3484-1.3484c5.2893-8.5045-5.0935-19.9918-14.7392-12.9946-10.0739 8.1359.6986 22.8215 11.2162 16.5l1.35 1.35a1.0066 1.0066 0 0 0 -.0538 1.4664l5.4917 5.4951a3.5025 3.5025 0 0 0 4.8825-5.0199zm-21.6707-18.2035c8.5533-6.3148 18.0541 6.0889 9.7285 12.7027-8.5535 6.315-18.0544-6.0888-9.7285-12.7027zm11.6307 13.7137q.3582-.33.68-.6909l1.1393 1.1386-.686.686zm8.6553 8a1.4842 1.4842 0 0 1 -2.1538.0308l-4.7144-4.7231 2.1163-2.1163 4.7188 4.71a1.5211 1.5211 0 0 1 .0331 2.0991z"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </div>
+
+            <div class="search-menu menu">
+              <nav class="dropdown-menu">
+                <ul class="menu__list"></ul>
+              </nav>
+            </div>
+          </div>
+        </section>
+
+        <section class="result">
+          <div class="result__container">
+            <div class="cards__list"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
